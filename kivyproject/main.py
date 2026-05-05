@@ -8,6 +8,9 @@ from kivy.core.window import Window
 from kivy.uix.scrollview import ScrollView
 from instructions import txt_instruction, txt_test1, txt_test2, txt_test3, txt_sits
 from ruffier import test
+from kivy.uix.label import Label
+from kivy.clock import Clock
+from kivy.properties import BooleanProperty
 
 
 age = 7
